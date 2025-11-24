@@ -1,11 +1,28 @@
 # NTPU LineBot
 
+> **⚠️ 專案已封存 (ARCHIVED)**
+> 本 Python 版本已不再維護，請改用全新的 **[Go 語言版本](https://github.com/garyellow/ntpu-linebot-go)** 🚀
+>
+> ### 🔄 為何遷移至 Go？
+> - **效能提升**: 並發處理效能顯著提升，資源消耗降低 60%+
+> - **類型安全**: 編譯期型別檢查，減少執行時期錯誤
+> - **部署簡化**: 單一二進制檔案，無需 Python 環境與依賴套件
+> - **更佳的並發**: Goroutine 與 Channel 提供更優雅的並發模型
+> - **維護性**: 完整的測試覆蓋、Prometheus 監控、Grafana 儀表板
+>
+> 👉 **立即前往**: [garyellow/ntpu-linebot-go](https://github.com/garyellow/ntpu-linebot-go)
+
+---
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://hub.docker.com/r/garyellow/ntpu-linebot)
 [![Sanic](https://img.shields.io/badge/framework-sanic-blue.svg)](https://sanic.dev/)
+[![Status: Archived](https://img.shields.io/badge/status-archived-red.svg)](https://github.com/garyellow/ntpu-linebot-go)
 
 A LINE Bot for querying National Taipei University (NTPU) public information. This bot provides convenient access to student information, course data, and contact details through an intuitive chat interface.
+
+**Note**: This is the legacy Python implementation. For the latest features and better performance, please use the [Go version](https://github.com/garyellow/ntpu-linebot-go).
 
 ## ✨ Features
 
